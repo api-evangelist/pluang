@@ -1,8 +1,27 @@
 aid: pluang
 name: Pluang
-description: 'Pluang is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Pluang is an Indonesian multi-asset investment and trading platform that lets retail
+  users invest across a single app in US stocks and ETFs (fractional from $1), Indonesian stocks,
+  cryptocurrencies with staking, mutual funds (Reksa Dana), physical gold and silver, options, and
+  leveraged crypto futures. Features include Auto Invest dollar-cost averaging, the Pocket portfolio
+  bundling tool, TradingView-powered charting, USD yield products, and the Aura AI recommendation
+  assistant. Pluang operates under OJK and Bappebti regulatory oversight across its subsidiaries and
+  reports 12M+ users. It exposes no public developer API; this profile captures its public web,
+  legal, and security surface. Surfaced as an accel portfolio company and enriched by the API
+  Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/pluang/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://image-cdn.pluang.com/web/og-banners/homePage.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Fintech
+- Investing
+- Trading
+- Cryptocurrency
+- Stocks
+- Wealth Management
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://pluang.com/
+- type: Support
+  url: https://help.pluang.com/
+- type: Blog
+  url: https://pluang.com/akademi
+- type: Login
+  url: https://trade.pluang.com/login
+- type: TermsOfService
+  url: https://pluang.com/tnc/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://pluang.com/tnc/privacy-policy
+- type: DomainSecurity
+  url: security/pluang-domain-security.yml
+- type: LLMsTxt
+  url: llms/pluang-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

@@ -1,0 +1,21 @@
+# Pluang
+
+> Pluang is an Indonesian multi-asset investment and trading platform. From a single mobile app, retail users invest in US stocks and ETFs (fractional from $1), Indonesian stocks, cryptocurrencies with staking, mutual funds (Reksa Dana), physical gold and silver, options, and leveraged crypto futures. It operates under OJK and Bappebti regulatory oversight and reports 12M+ users. Pluang publishes no public developer API; this file indexes its public web, help, legal, and security surface.
+
+## Product
+- [Pluang home](https://pluang.com/): Multi-asset investment app overview and downloads.
+- [Web trading](https://trade.pluang.com/login): Browser trading platform (login/sign up).
+- [Help Center](https://help.pluang.com/): Support and FAQ.
+- [Akademi (blog / education)](https://pluang.com/akademi): Investing education and articles.
+- [Careers](https://pluang.com/career): Open roles.
+
+## Legal
+- [Terms and Conditions](https://pluang.com/tnc/terms-and-conditions)
+- [Privacy Policy](https://pluang.com/tnc/privacy-policy)
+
+## API Evangelist artifacts
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/pluang/refs/heads/main/apis.yml): APIs.json profile for Pluang.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/pluang/refs/heads/main/security/pluang-domain-security.yml): TLS/HSTS/CAA/SPF/DMARC posture for pluang.com.
+
+## Notes
+- No public developer portal, API documentation, OpenAPI specification, SDKs, MCP server, or /.well-known discovery documents were found as of 2026-07-20.
